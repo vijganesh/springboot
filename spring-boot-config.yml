@@ -1,7 +1,7 @@
 default.greeting: Welcome to 
 
 my:
-  greeting: ${default.greeting} my world
+  greeting: ${default.greeting} spring cloud config server
   list:
       values: One,Two,Three,Four
 db:
