@@ -1,0 +1,14 @@
+default.greeting: Welcome to 
+
+my:
+  greeting: ${default.greeting} my world
+  list:
+      values: One,Two,Three
+db:
+  connection: "{connectionString:'http://__from test',userName:'foo',password:'pass'}"
+  host: qa
+  port: 3309
+
+server.port: 8090
+
+management.endpoints.web.exposure.include: "*"
