@@ -3,11 +3,11 @@ default.greeting: Welcome to
 my:
   greeting: ${default.greeting} my world
   list:
-      values: One,Two,Three
+      values: One,Two,Three,Four
 db:
-  connection: "{connectionString:'http://__',userName:'foo',password:'pass'}"
-  host: localhost
-  port: 3309
+  connection: "{connectionString:'http://__from config server',userName:'foo',password:'pass'}"
+  host: configServer
+  port: 8888
 
 server.port: 8090
 
